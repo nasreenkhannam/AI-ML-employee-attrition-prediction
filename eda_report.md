@@ -24,7 +24,7 @@ The dataset contains employee information such as age, department, job satisfact
 
 The dataset contains more employees labeled as having stayed than employees labeled as having left.
 
-Chart: `images/01_attrition_distribution.png`
+![Overall Attrition Distribution](images/01_attrition_distribution.png)
 
 ### 4. Department vs. Attrition
 
@@ -36,7 +36,7 @@ Chart: `images/01_attrition_distribution.png`
 
 Sales has the highest observed attrition percentage among the three departments, while Research & Development has the lowest.
 
-Chart: `images/02_department_attrition.png`
+![Department vs Attrition](images/02_department_attrition.png)
 
 ### 5. Overtime vs. Attrition
 
@@ -47,7 +47,7 @@ Chart: `images/02_department_attrition.png`
 
 The observed attrition percentage is higher among employees who work overtime than among employees who do not.
 
-Chart: `images/03_overtime_attrition.png`
+![Overtime vs Attrition](images/03_overtime_attrition.png)
 
 ### 6. Job Satisfaction vs. Attrition
 
@@ -60,7 +60,7 @@ Chart: `images/03_overtime_attrition.png`
 
 Rating 1 has the highest observed attrition percentage, while rating 4 has the lowest. The ratings are treated as the dataset's numeric satisfaction categories.
 
-Chart: `images/04_job_satisfaction_attrition.png`
+![Job Satisfaction vs Attrition](images/04_job_satisfaction_attrition.png)
 
 ### 7. Age Group vs. Attrition
 
@@ -74,7 +74,7 @@ Chart: `images/04_job_satisfaction_attrition.png`
 
 The 18–25 age group has the highest observed attrition percentage, while the 36–45 group has the lowest. The 56+ group has fewer records, so its percentage should be interpreted with its smaller group size in mind.
 
-Chart: `images/05_age_group_attrition.png`
+![Age Group vs Attrition](images/05_age_group_attrition.png)
 
 ### 8. Data Quality Summary
 
