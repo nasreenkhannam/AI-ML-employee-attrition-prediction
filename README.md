@@ -1,10 +1,10 @@
-# AI-Based Employee Attrition Prediction System
+# Employee Attrition Analysis
 
 ## Project Overview
 
-This project explores employee attrition data to understand patterns associated with employees leaving an organization. The current stage focuses on data loading, data quality checks, exploratory data analysis (EDA), and visualization.
+This project explores employee attrition data to identify descriptive patterns associated with employees leaving an organization. It focuses on data loading, quality checks, exploratory data analysis (EDA), and visualizations.
 
-Predictive model training and evaluation are not included in this EDA stage.
+Predictive model training, model evaluation, and deployment are not included in the current stage.
 
 ## Objectives
 
@@ -12,7 +12,7 @@ Predictive model training and evaluation are not included in this EDA stage.
 - Check for missing values and duplicate records.
 - Analyze the overall employee attrition distribution.
 - Explore attrition across departments, overtime status, job satisfaction, and age groups.
-- Present findings using tables and charts.
+- Present descriptive findings using tables and charts.
 
 ## Dataset
 
@@ -36,26 +36,7 @@ The dataset includes employee demographics, job information, satisfaction rating
 - Visual Studio Code
 - Git and GitHub
 
-## Project Structure
-
-```text
-employee-attrition-analysis/
-├── data/
-├── images/
-├── notebooks/
-│   └── employee_eda.ipynb
-├── reports/
-│   └── eda_report.md
-├── src/
-│   └── employee_eda.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-## Exploratory Data Analysis
-
-The following analyses are included:
+## Analysis Included
 
 1. Overall employee attrition distribution
 2. Department vs. attrition
@@ -73,16 +54,29 @@ The following analyses are included:
 
 These are descriptive findings from this dataset and do not establish causation.
 
-## How to Run the Project
+## Project Structure
+
+```text
+employee-attrition-analysis/
+├── images/
+├── notebooks/
+│   └── employee_eda.ipynb
+├── src/
+│   └── employee_eda.py
+├── eda_report.md
+├── eda_report.pdf
+├── requirements.txt
+└── README.md
+```
+
+## How to Run
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/nasreenkhannam/employee-attrition-analysis.git
-cd employee-attrition-analysis
+git clone https://github.com/nasreenkhannam/AI-ML-employee-attrition-prediction.git
+cd AI-ML-employee-attrition-prediction
 ```
-
-The repository URL above assumes the repository has been renamed to `employee-attrition-analysis`.
 
 ### 2. Create and activate a virtual environment
 
@@ -107,15 +101,15 @@ Place the CSV file in the `data/` folder using this filename:
 
 Follow the dataset's applicable license and usage terms.
 
-### 5. Run the Python script
+### 5. Run the script
 
 ```powershell
 python src/employee_eda.py
 ```
 
-### 6. Open the Jupyter Notebook
+### 6. Open the notebook
 
-Open `notebooks/employee_eda.ipynb` in VS Code and select your project's Python environment.
+Open `notebooks/employee_eda.ipynb` in VS Code and select the project's Python environment.
 
 ## Project Status
 
