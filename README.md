@@ -39,7 +39,7 @@ The dataset includes employee demographics, job information, satisfaction rating
 ## Project Structure
 
 ```text
-AI-ML-INTERNSHIP-employee-attrition-prediction/
+employee-attrition-analysis/
 ├── data/
 ├── images/
 ├── notebooks/
@@ -78,11 +78,11 @@ These are descriptive findings from this dataset and do not establish causation.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd AI-ML-INTERNSHIP-employee-attrition-prediction
+git clone https://github.com/nasreenkhannam/employee-attrition-analysis.git
+cd employee-attrition-analysis
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+The repository URL above assumes the repository has been renamed to `employee-attrition-analysis`.
 
 ### 2. Create and activate a virtual environment
 
